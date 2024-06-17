@@ -1,0 +1,44 @@
+.logo{
+    display: flex;
+    gap: 0px;
+    color: #0D2564;
+    margin-top: 5px;
+}
+.topNav{
+    display: flex;
+    gap: 45%;
+    background-color: white;
+    
+}
+.textNav{
+    display: flex;
+    gap: 90px;
+    text-decoration-line: none;
+    margin-top: 2%;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: #0D2564;
+    font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width :768px){
+    
+    .topNav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20%;
+        background-color: white;
+    }
+
+    .textNav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 90px;
+        text-decoration-line: none;
+        margin-top: 2%;
+    }
+}
