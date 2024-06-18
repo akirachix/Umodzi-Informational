@@ -1,3 +1,4 @@
+import Abouts from "./About";
 import Intro from "./Landingpage";
 import Navb from "./Navbar";
 
@@ -7,6 +8,7 @@ function Nav(){
       
       <Navb/>
       <Intro/>
+      <Abouts/>
     </div>
   );
 };

@@ -1,0 +1,53 @@
+.about-us {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.us {
+  position: relative;
+  left: 10%;
+  bottom: 70px;
+}
+
+.ourmission {
+  position: relative;
+  left: 7%;
+  bottom: 70px;
+}
+.hr {
+  width: 800px;
+  margin-left: 27%;
+}
+.team {
+  background-color: #0d2564;
+  color: aliceblue;
+  padding: 30px 30px;
+  border-radius: 5%;
+  margin-top: 10%;
+  margin-right: 15%;
+
+  position: relative;
+  bottom: 180px;
+}
+.mission {
+  background-color: #0d2564;
+  color: aliceblue;
+  padding: 30px 30px;
+  border-radius: 5%;
+  margin-top: 10%;
+  margin-right: 15%;
+  position: relative;
+  bottom: 185px;
+}
+.who {
+  display: flex;
+  margin-top: 10%;
+  /* justify-content: space-evenly; */
+}
+h2 {
+  color: #0d2564;
+}
+
+h3 {
+  color: #0d2564;
+}
