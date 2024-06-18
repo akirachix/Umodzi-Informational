@@ -1,6 +1,7 @@
 import Intro from "./Landingpage";
 import Navb from "./Navbar";
 import Products from "./Product";
+import About from "./contact/contact";
 
 function Nav(){
   return(
@@ -9,6 +10,7 @@ function Nav(){
       <Navb/>
       <Intro/>
       <Products/>
+      <About/>
     </div>
   );
 };
