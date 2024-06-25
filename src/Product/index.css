@@ -91,10 +91,11 @@ height: 400px;
    
       .product { 
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        /* flex-direction: column; */
          background-color: #BFBEEF;
          border-radius: 30px;
-         width: 350px;
+         width: 550px;
          margin: 0 auto;
          margin-top: 2%;
         }
@@ -106,7 +107,7 @@ height: 400px;
        
       }
       .text {
-        font-size: 30px;
+        font-size: 15px;
         color: #0d2564;
         text-align: center;
       }
@@ -123,10 +124,13 @@ height: 400px;
   
     .product { 
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      /* flex-direction: column; */
+
        background-color: #BFBEEF;
        border-radius: 30px;
-       width: 350px;
+       width: 650px;
        margin: 0 auto;
        margin-top: 2%;
       }
@@ -138,7 +142,7 @@ height: 400px;
        
       }
       .text {
-        font-size: 30px;
+        font-size: 20px;
         color: #0d2564;
         text-align: center;
       }
