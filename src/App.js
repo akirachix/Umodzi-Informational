@@ -1,18 +1,12 @@
-import Intro from "./Landingpage";
-import Navb from "./Navbar";
-import Products from "./Product";
-import About from "./contact/contact";
 
-function Nav(){
+import Contact from "./Contact";
+
+function App(){
   return(
     <div>
-      
-      <Navb/>
-      <Intro/>
-      <Products/>
-      <About/>
+      <Contact/>
     </div>
   );
 };
 
-export default Nav;
+export default App;
