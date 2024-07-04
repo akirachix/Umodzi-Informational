@@ -8,7 +8,7 @@ const Products = () => {
       <div className="text">
         <h3>Product</h3>
         <p className="product-text">
-          GanzaPay is gamified app for mobile money apps.<br/>With GanzaPay you can send money, withdraw money, <br/>check balance and call customer care without the need to read or write.
+        GanzaPay presents an innovative approach to financial transactions through mobile applications, leveraging gamification elements to enhance user experience and accessibility. This app combines the convenience of digital payments with engaging game-like features, aiming to make financial operations more interactive and intuitive.
         </p>
         <h2 className='download'>Download the App On</h2>
         <img id="google-play-img" src={google} alt="" />
