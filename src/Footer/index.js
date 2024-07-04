@@ -1,12 +1,5 @@
 import React from 'react';
 import './index.css';
-import FacebookLogo from './FacebookLogo.png';
-import GanzaPayLogo from './GanzaPayLogo.png';
-import InstagramLogo from './Instagram.png';
-import YoutubeLogo from './YoutubeLogo.png';
-import LinkedinLogo from './LinkedinLogo.png';
-import Xlogo from './Xlogo.png';
-
 
 
 
@@ -14,25 +7,25 @@ function Footer() {
     return (
         <footer>
 
-            <div class="footer-container">
+            <div className="footer-container">
                 <div class="footer-logo">
-                    <div class="textlogo">
-                        <img src={GanzaPayLogo} alt="Logo"></img>
-                        <p class="text">GanzaPay</p>
+                    <div className="textlogo">
+                        <img id='image' src="images/GanzaPayLogo.png" alt="Logo"></img>
+                        <p className="text">GanzaPay</p>
                     </div>
 
 
-                    <div class="social-media">
-                        <a href="#"><img src={FacebookLogo} alt="Facebook"></img></a>
-                        <a href="#"><img src={YoutubeLogo} alt="YouTube"></img></a>
-                        <a href="#"><img src={InstagramLogo} alt="Instagram"></img></a>
-                        <a href="#"><img src={LinkedinLogo} alt="LinkedIn"></img></a>
-                        <a href="#"><img src={Xlogo} alt="Twitter"></img></a>
+                    <div className="social-media">
+                        <a href="#"><img src="images/Facebooklogo.png" alt="Facebook"></img></a>
+                        <a href="#"><img src="images/Youtubelogo.png" alt="YouTube"></img></a>
+                        <a href="#"><img src="images/instagram.png" alt="Instagram"></img></a>
+                        <a href="#"><img src="images/Linkedinlogo.png" alt="LinkedIn"></img></a>
+                        <a href="#"><img src="images/XLogo.png" alt="Twitter"></img></a>
                     </div>
                 </div>
 
 
-                <div class="footer-links">
+                <div className="footer-links">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -43,7 +36,7 @@ function Footer() {
                 </div>
 
 
-                <div class="our-partners">
+                <div className="our-partners">
                     <h4>Our Partners</h4>
                     <ul>
                         <li><a href="https://www.airtel.co.rw/"> Airtel Tigo </a></li>
@@ -52,7 +45,7 @@ function Footer() {
                 </div>
 
 
-                <div class="privacy">
+                <div className="privacy">
                     <h4>Privacy</h4>
                     <ul>
                         <li>Data Privacy</li>
