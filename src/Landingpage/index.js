@@ -1,19 +1,26 @@
+// import'./index.css';
+import React from 'react';
 import'./index.css';
 
+
 const Intro =()=>{
-    return(
-        <div className='intro'>
-            
-            <h1 className='content'>BRINGING ACCESS TO</h1>
-            <h1>MOBILE MONEY CLOSER</h1>
-            <h1>TO FARMERS</h1>
-             <button id='button'>Learn more</button>
+   return(
+       <div id='intro'>
+          
+         
 
 
-        
-            
-        </div>
-    );
+
+
+<div class="text-container">
+<span>BRINGING  ACCESS TO</span>
+<span>MOBILE MONEY CLOSER</span>
+<span> TO FARMERS</span>
+</div>       
+<button id='button'>Learn more</button>        
+       </div>
+   );
 };
-
 export default  Intro;
+
+// 
