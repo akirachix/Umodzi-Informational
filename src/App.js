@@ -1,16 +1,11 @@
-import Abouts from "./About";
-import Intro from "./Landingpage";
-import Navb from "./Navbar";
+import About from "./About";
 
-function Nav(){
-  return(
+const App = () => {
+  return (
     <div>
-      
-      <Navb/>
-      <Intro/>
-      <Abouts/>
+      <About />
     </div>
   );
 };
 
-export default Nav;
+export default App;

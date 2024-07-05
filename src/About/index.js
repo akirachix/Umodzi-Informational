@@ -1,40 +1,39 @@
+import React from "react";
 import "./index.css";
+
 const Abouts = () => {
   return (
-    <div className="about-text">
-      <div className="about-us">
-        <h3>ABOUT US</h3>
-      </div>
-      <div className="hr">
+    <>
+      <h3 className="about">ABOUT US</h3>
+
+      <div className="line">
         <hr></hr>
       </div>
 
-      <div className="who">
-        <div className="us">
-          <h2>Who are we?</h2>
-        </div>
-        <div className="team">
+      <div className="container">
+        <div className="teamtext">
+          <h1 className="aboutus">Who are we?</h1>
           <p>
-            We are team of developers with innovative<br></br>
-            solutions to everyday problems.At GanzaPay we<br></br>
-            believe there is a better way to do money transaction.<br></br>A
-            more valuable way were we consider every users<br></br>
-            needs. We have user friendly website that enables<br></br>
-            uses to navigate the app without any problems.<br></br>
-            We strive to simplify the way mobile apps feel to<br></br>
-            our users by using visual ques.
+            As a team of developers, we strive to provide innovative solutions
+            to everyday problems. At GanzaPay, we are dedicated to redefining
+            the way money transactions are done. Our focus is on creating a more
+            valuable experience that takes into consideration the unique needs
+            of every user. Our user-friendly website is designed to enhance
+            navigation and ensure seamless interaction with the app. We are
+            committed to simplifying the user experience of our mobile apps
+            through the use of visual cues.
           </p>
         </div>
 
-        <h2 className="ourmission">Mission</h2>
-        <div className="mission">
-          <p>
-            Our Mission is to become the most reliable<br></br>
-            parther for promoting access to mobile money<br></br>for all{" "}
+        <div className="missions">
+          <h1 className="aboutus">Mission</h1>
+          <p        >
+            Our Mission is to become the most reliable partner for promoting
+            access to mobile money for all
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
