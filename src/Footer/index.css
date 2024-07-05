@@ -1,0 +1,254 @@
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: #302EA8;
+    background-color: rgb(206, 206, 206);
+    font-weight: bold;
+}
+.footer-logo {
+    margin-right: 20px;
+    margin-bottom: 69px;
+}
+.text{
+    color: #302EA8;
+}
+.textlogo {
+    display: flex;
+    font-size: 20px;
+}
+.footer-logo img {
+    width: 60px;
+    height: auto;
+}
+.footer-logo p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.social-media a img {
+    width: 30px;
+    height: 30px;
+}
+.footer-links {
+    margin-right: 20px;
+    text-decoration: none;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.footer-links h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #302EA8;
+    text-transform: uppercase;
+}
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    flex-direction: column;
+    font-size: 20px;
+}
+.footer-links ul li a {
+    color: #302EA8;
+    text-decoration: none;
+}
+.our-partners {
+    margin-right: 20px;
+    text-decoration: none;
+    margin-bottom: 69px;
+}
+.our-partners h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #302EA8;
+    text-transform: uppercase;
+    padding-right: 19px;
+
+}
+.our-partners ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    flex-direction: column;
+    font-size: 20px;
+}
+.our-partners a {
+    text-decoration: none;
+    color: #302EA8;
+}
+.privacy {
+    margin-bottom: 70px;
+    padding-right: 12px;
+}
+.privacy h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #302EA8;
+    text-transform: uppercase;
+}
+.privacy ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    flex-direction: column;
+    color: #302EA8;
+    font-size: 20px;
+}
+
+
+@media (max-width: 992px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-links ul{
+        align-items: flex-start; 
+    }
+    .textlogo img{
+        align-items: flex-start;
+    }
+
+    .social-media{
+        margin-bottom: -50px;
+    }
+    .our-partners{
+        margin-bottom: 20px;
+    }
+.our-partners ul{
+    align-items: flex-start;
+}
+    .privacy ul {
+        align-items: flex-start;
+        font-size: 15px;
+    
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 10px;
+    }
+    .footer-logo img {
+        width: 60px;
+    }
+    .footer-logo p {
+        font-size: 15px;
+    }
+    .social-media {
+        gap: 2px;
+        margin-bottom: -50px;
+    }
+    .social-media a img {
+        width: 25px;
+        height: 25px;
+    }
+    .footer-links h4{
+        font-size: 15px;  
+    }
+    .our-partners h4{
+        font-size: 15px;  
+    }
+    .privacy h4 {
+        font-size: 15px;
+    }
+    .footer-links ul li a {
+        font-size: 15px;
+    }
+    .footer-links ul{
+        align-items: flex-start;  
+    }
+    .our-partners{
+        margin-bottom: 10px;
+    }
+    .our-partners ul{
+        align-items: flex-start; 
+        font-size: 15px;
+    }
+    .privacy ul {
+        align-items: flex-start; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .footer-logo img {
+        width: 40px;
+    }
+    .footer-logo p {
+        font-size: 15px;
+    }
+    .social-media{
+        padding-left: 6px;
+        margin-bottom:-50px;
+    }
+    .social-media a img {
+        width: 24px;
+        height: 24px;
+    }
+    .textlogo{
+        margin-right: 20px;
+    }
+    .footer-links{
+        padding-left: 6px;
+        margin-top: 10px;
+    }
+    .footer-links h4{
+        font-size: 15px;   
+    }
+    .our-partners{
+        margin-bottom: 10px;
+    }
+    .our-partners h4{
+        font-size: 15px;
+    }
+    .privacy h4 {
+        font-size: 15px;
+    }
+    .footer-links ul li a {
+        font-size: 15px;
+    }
+    .footer-links ul{
+        align-items: flex-start;
+        font-size: 15px;
+    }
+    .our-partners{
+        padding-left: 6px;
+    }
+    .our-partners ul{
+        align-items: flex-start;
+        font-size: 15px;
+    }
+    .privacy ul {
+        align-items: flex-start; 
+        font-size: 15x;
+    }
+    .privacy{
+        padding-left: 6px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
