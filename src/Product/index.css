@@ -153,8 +153,8 @@ height: 400px;
       }
       h2{
         font-size: 16px;
-        padding-right: -0%;
-        padding-left: -0%;
+        padding-right: 0%;
+        padding-left: 0%;
         margin-left: -55%;
       
       }
@@ -197,7 +197,7 @@ height: 400px;
       h2{
         font-size: 20px;
         padding-right: 0%;
-        padding-left: -0%;
+        padding-left: 0%;
         margin-left: -55%;
      
       }
