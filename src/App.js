@@ -1,11 +1,16 @@
-import Products from "./Product";
 
-function Nav(){
+import Products from "./Product";
+import Footer from "./Footer";
+
+function App(){
   return(
     <div>
-      <Products/>
-    </div>
-  );
-};
+    <Products/>
+   <Footer/>
 
-export default Nav;
+
+    </div>
+  )
+}
+
+export default App;
