@@ -1,4 +1,4 @@
-// import'./index.css';
+
 import React from 'react';
 import'./index.css';
 
@@ -7,11 +7,6 @@ const Intro =()=>{
    return(
        <div id='intro'>
           
-         
-
-
-
-
 <div class="text-container">
 <span>BRINGING  ACCESS TO</span>
 <span>MOBILE MONEY CLOSER</span>
@@ -23,4 +18,3 @@ const Intro =()=>{
 };
 export default  Intro;
 
-// 
