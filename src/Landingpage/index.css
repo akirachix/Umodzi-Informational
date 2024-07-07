@@ -13,7 +13,7 @@
  
  
  #intro{
-    background-image: url(man.jpg);
+    background-image: url("../image/man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 5%;
@@ -24,40 +24,20 @@
     color: #0D2564;
     padding-left: 36px;
     font-size: 35px;
-  
-   
-  
-   
-   
-  
-  
    
  }
- 
- 
- 
- 
  .text-container {
     display: flex;
     flex-direction: column;
     font-size: 50px;
     gap: 10px;
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  @media screen and (min-width: 280px) and (max-width: 768px){
  
  
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5%;
@@ -71,11 +51,6 @@
       
        
     }
- 
- 
- 
- 
- 
  
     #button{
         padding: 12px 12px;
@@ -101,20 +76,11 @@
         h1 {
         font-size: 60px;
         }
- 
- 
- 
- 
  }
- 
- 
- 
- 
- 
  
  @media screen and (min-width: 280px) and (max-width: 653px){
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5%;
@@ -128,11 +94,6 @@
       
        
     }
-    
- 
- 
- 
- 
      #button {
         padding: 8px 8px;
         text-align: center;
@@ -160,70 +121,10 @@
         gap: 10px;
         }
   }
- 
- 
- 
- 
- /* @media screen and (min-width: 768px) and (max-width: 1px){
- 
- 
- 
- 
-    .intro{
-        background-image: url(man.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-top: 5%;
-        padding-bottom: 20%;
-        border: none;
-        padding: auto;
-        color: #0D2564;
-        padding-left: 10px;
-        font-size: 26px;
-      
-    }
- 
- 
- 
- 
-    #button{
-        padding: 10px 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 25px;
-        border-radius: 15px;
-        color: white;
-        background-color: blue;
-        border: none;
-        cursor: pointer;
-    }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- } */
- 
- 
- 
- 
- 
- 
- 
- 
  @media screen and (min-width: 412px) and (max-width: 892px){
  
- 
- 
- 
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5%;
@@ -238,9 +139,6 @@
     #content{
         width: 600px;
     }
- 
- 
- 
  
     #button{
         padding: 8px 8px;
@@ -262,33 +160,12 @@
         font-size: 15px;
     
         gap: 20px;
-        }
- 
- 
- 
- 
- 
- 
- 
- 
- 
+    }
  
  }
- 
- 
- 
- 
- 
- 
- 
- 
  @media screen and (min-width: 411px) and (max-width: 731px){
- 
- 
- 
- 
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5%;
@@ -300,10 +177,6 @@
         font-size: 9px;
       
     }
- 
- 
- 
- 
     #button{
         padding: 12px 12px;
         text-align: center;
@@ -324,36 +197,11 @@
     
         gap: 20px;
         }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  @media screen and (min-width: 360px) and (max-width: 640px){
- 
- 
- 
- 
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5%;
@@ -374,12 +222,6 @@
     
         gap: 20px;
         }
- 
- 
- 
- 
- 
- 
     #button{
         padding: 12px 12px;
         text-align: center;
@@ -392,59 +234,13 @@
         border: none;
         cursor: pointer;
         margin-top: 10px;
-    }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+}
  @media screen and (min-width: 820px) and (max-width: 1180px){
  
- 
- 
- 
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5%;
@@ -456,11 +252,6 @@
         font-size: 18px;
       
     }
-   
- 
- 
- 
- 
     #button{
         padding: 15px 15px;
         text-align: center;
@@ -483,32 +274,14 @@
     
         gap: 20px;
         }
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  }
  
- 
- 
- 
- 
- 
- 
- 
  @media screen and (min-width: 768px) and (max-width: 1024px){
  
- 
- 
- 
     .intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5%;
@@ -521,8 +294,6 @@
        
       
     }
- 
- 
  
  
     #button{
@@ -546,35 +317,13 @@
         gap: 10px;
         }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
  
  @media screen and (min-width:912px) and (max-width: 1368px){
  
- 
- 
- 
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5%;
@@ -588,10 +337,6 @@
         line-height: 20px;
       
     }
- 
- 
- 
- 
     #button{
         padding: 12px 12px;
         text-align: center;
@@ -613,37 +358,11 @@
         gap: 10px;
         }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  @media screen and (min-width:768px) and (max-width: 1024px){
- 
- 
- 
- 
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 7%;
@@ -657,10 +376,6 @@
         line-height: 20px;
       
     }
- 
- 
- 
- 
     #button{
         padding: 12px 12px;
         text-align: center;
@@ -684,29 +399,10 @@
         gap: 50px;
         }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
  }
- 
- 
- 
- 
- 
- 
  @media screen and (min-width:800px) and (max-width: 1280px){
- 
- 
- 
- 
     #intro{
-        background-image: url(man.jpg);
+        background-image: url("../image/man.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 7%;
@@ -720,9 +416,6 @@
         line-height: 20px;
       
     }
- 
- 
- 
  
     #button{
         padding: 12px 12px;
@@ -746,16 +439,6 @@
     
         gap: 50px;
         }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  }
- /*  */
+
  

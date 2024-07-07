@@ -1,29 +1,15 @@
-// import Intro from "./Landingpage";
-// import Navb from "./Navbar";
-
-// function Nav(){
-
-// import Intro from './Landing-page/inde
 import Intro from "./Landingpage";
 
+// import Navb from "./Navbar";
 
-
-
-
-
-function intro(){
- return(
-   <div>
-<Intro/>
-
-
-<section className='all'/>
-       <div className='Landingpage'>
-        
-       </div>
-   </div>
- );
+function Nav(){
+  return(
+    <div>
+      
+      {/* <Navb/> */}
+      <Intro/>
+    </div>
+  );
 };
 
-
-export default intro;
+export default Nav;
