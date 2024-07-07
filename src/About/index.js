@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-const Abouts = () => {
+const About = () => {
   return (
     <>
       <h3 className="about">ABOUT US</h3>
@@ -37,4 +37,4 @@ const Abouts = () => {
   );
 };
 
-export default Abouts;
+export default About;
