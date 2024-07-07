@@ -1,25 +1,19 @@
 
 import About from "./About";
+import Footer from "./Footer";
 
 const App = () => {
   return (
     <div>
       <About />
-
-
-import Footer from "./Footer";
-
-function Foot(){
-  return(
-    <div>
       <Footer/>
 
     </div>
   );
-};
 
+  }
 
 export default App;
 
-export default Foot;
+
 
