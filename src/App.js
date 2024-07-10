@@ -1,15 +1,21 @@
+import React from "react";
+import Contact from "./Contact";
+import About from "./About";
 
-import About from "./contact/contact";
 
 
 function App(){
   return(
     <div>
       <About/>
-      <Contact/>
-      
-    </div>
-  );
-};
+    <Contact/>
+      </div>
+      )
+      }
 
-export default App;
+    
+    export default App;
+    
+
+
+
