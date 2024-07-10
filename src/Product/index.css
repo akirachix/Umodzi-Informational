@@ -1,4 +1,4 @@
-.product { 
+.body{ 
   display: flex;
    background-color: #BFBEEF;
    border-radius: 30px;
@@ -19,7 +19,7 @@ height: 400px;
    
   }
 
-  .body{
+  .product{
     font-size: 20px;
     text-align: justify;
     padding-left: 5%;
@@ -45,7 +45,7 @@ height: 400px;
  
   @media screen  and (min-width:280px) and (max-width:480px){
    
-  .product { 
+  .body { 
      display: flex;
      flex-direction: column;
      width:320px ;
@@ -92,7 +92,7 @@ height: 400px;
   }  
 
   @media screen  and (min-width: 490px) and (max-width: 690px){
-    .product { 
+    .body { 
       display: flex;
        background-color: #BFBEEF;
        border-radius: 30px;
@@ -127,7 +127,7 @@ height: 400px;
   }
   @media screen  and (min-width: 691px) and (max-width: 900px){
    
-      .product { 
+      .body { 
         display: flex;
         flex-direction: row;
          background-color: #BFBEEF;
@@ -171,7 +171,7 @@ height: 400px;
      
 
      
-    .product { 
+    .body { 
       display: flex;
       flex-direction: row;
        background-color: #BFBEEF;
@@ -209,7 +209,7 @@ height: 400px;
   }
 
   @media screen and (width:1280px){
-    .product { 
+    .body { 
       display: flex;
        background-color: #BFBEEF;
        border-radius: 30px;
@@ -252,8 +252,5 @@ height: 400px;
        text-align: left;
        font-size: 20px;
       }
-      
-
-    
 
   }
