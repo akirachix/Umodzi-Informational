@@ -238,18 +238,15 @@
   .contact {
     background-image: url("../image/computer.jpg");
     margin-left: 0px;
-    /* margin-right: 50px; */
     display: flex;
     flex-direction: column;
     padding-bottom: 6%;
-    /* padding-top: 6%; */
     width: 100%;
     border-radius: 26px;
 
   }
   .header {
     font-size: 14px;
-    /* margin-bottom: -3%; */
     color: #c7cfe5;
     text-align: center;
   }
@@ -270,7 +267,6 @@
     margin-left: -50px;
     margin-bottom: 4px;
 
-    /* align-items:center; */
   }
 
   .location {
@@ -285,7 +281,7 @@
     font-size: 16px;
     margin-bottom: 16px;
     margin-left: -50px;
-    /* align-items:center; */
+ 
   }
   .call {
     width: 30px;
