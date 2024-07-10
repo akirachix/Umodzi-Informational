@@ -3,7 +3,7 @@ import './index.css';
 
 const Products = () => {
   return (
-    <div className="body">
+    <div className="products-container">
     <div className="product">
         <h3>Product</h3>
         <p className="product-text">
@@ -13,7 +13,7 @@ const Products = () => {
         <img src='/images/ganzagp.png' alt='gaza' id='google-play-img'/>
       </div>
       <div>
-     <img src='/images/ganza.png' alt='' id='image'/>
+     <img src='/images/ganza.png' alt='' id='ganza-pay-logo-image'/>
 
         </div>
     </div>
