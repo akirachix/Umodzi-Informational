@@ -4,11 +4,6 @@ import About from "./About";
 
 import Products from "./Product";
 
-// function App(){
-//   return(
-//     <div>
-//     <Products/>
-   
 
 const App = () => {
   return (
