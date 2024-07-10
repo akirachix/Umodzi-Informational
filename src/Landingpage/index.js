@@ -3,7 +3,7 @@ import React from 'react';
 import'./index.css';
 
 
-const Intro =()=>{
+const  Landing_content =()=>{
    return(
        <div id='intro'>
           
@@ -16,5 +16,5 @@ const Intro =()=>{
        </div>
    );
 };
-export default  Intro;
+export default  Landing_content;
 

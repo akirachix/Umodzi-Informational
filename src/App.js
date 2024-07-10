@@ -1,11 +1,12 @@
-import Intro from "./Landingpage";
+
+import Landing_content  from "./Landingpage"
 
 
 
 function App(){
   return(
     <div>
-      <Intro/>
+      <Landing_content/>
      
 
     </div>
