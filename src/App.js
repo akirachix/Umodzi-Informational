@@ -1,15 +1,15 @@
 import Intro from "./Landingpage";
 
-// import Navb from "./Navbar";
 
-function Nav(){
+
+function App(){
   return(
     <div>
-      
-      {/* <Navb/> */}
       <Intro/>
+     
+
     </div>
   );
 };
 
-export default Nav;
+export default App;
