@@ -4,22 +4,20 @@ import About from "./About";
 
 import Products from "./Product";
 
-feature/product
-function App(){
-  return(
-    <div>
-    <Products/>
+// function App(){
+//   return(
+//     <div>
+//     <Products/>
    
 
 const App = () => {
   return (
     <div>
       <About />
-      <Footer />
+      <Products/>
     </div>
   )
 }
 
-feature/product
 export default App;
 
