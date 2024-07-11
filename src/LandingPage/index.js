@@ -3,18 +3,24 @@ import React from 'react';
 import'./index.css';
 
 
-const  Landing_content =()=>{
+const Landing =()=>{
    return(
-       <div id='intro'>
+       <div id='content'>
           
 <div class="text-container">
-<span>BRINGING  ACCESS TO</span>
-<span>MOBILE MONEY CLOSER</span>
-<span> TO FARMERS</span>
+    <h1>
+BRINGING ACCESS TO
+
+MOBILE MONEY CLOSER
+
+ TO FARMERS
+    </h1>
+
 </div>       
 <button id='button'>Learn more</button>        
        </div>
    );
 };
-export default  Landing_content;
+
+export  default Landing;
 

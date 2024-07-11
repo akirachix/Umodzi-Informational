@@ -1,14 +1,15 @@
 
-import Landing_content  from "./Landingpage"
+// import Landing from "./LandingPage"
+import Landing from "./LandingPage";
 
-
+// import Navb from "./Navbar";
 
 function App(){
   return(
     <div>
-      <Landing_content/>
+      <Landing/>
      
-
+      
     </div>
   );
 };
