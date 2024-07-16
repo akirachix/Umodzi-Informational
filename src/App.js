@@ -4,6 +4,8 @@ import About from "./About";
 
 import Products from "./Product";
 
+import Footer from "./Footer";
+
 
 
 
@@ -12,6 +14,7 @@ const App = () => {
     <div>
       <About />
       <Products/>
+      <Footer/>
     </div>
   )
 }

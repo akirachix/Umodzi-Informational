@@ -48,7 +48,7 @@ height: 400px;
   .products-container { 
      display: flex;
      flex-direction: column;
-     width:320px ;
+     width:300px ;
      padding: 30px;
      gap: 10%;
      border-radius: 0%;
@@ -90,7 +90,6 @@ height: 400px;
       
     }
   }  
-
   @media screen  and (min-width: 490px) and (max-width: 690px){
     .products-container { 
       display: flex;

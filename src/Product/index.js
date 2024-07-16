@@ -15,7 +15,7 @@ const Products = () => {
       <div>
      <img src='/images/ganza.png' alt='' id='ganza-pay-logo-image'/>
 
-        </div>
+    </div>  
     </div>
   );
 };
