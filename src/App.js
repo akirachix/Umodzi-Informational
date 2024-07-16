@@ -1,6 +1,7 @@
 import React from "react";
 import Contact from "./Contact";
 import About from "./About";
+import Footer from "./Footer";
 
 
 
@@ -9,6 +10,7 @@ function App(){
     <div>
       <About/>
     <Contact/>
+    <Footer/>
       </div>
       )
       }
