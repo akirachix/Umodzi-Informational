@@ -1,17 +1,23 @@
 import React from "react";
-
+import Contact from "./Contact";
 import About from "./About";
-
 import Footer from "./Footer";
 
-const App = () => {
-  return (
+
+
+function App(){
+  return(
     <div>
-      <About />
-      <Footer />
-    </div>
-  );
-};
+      <About/>
+    <Contact/>
+    <Footer/>
+      </div>
+      )
+      }
+
+    
+    export default App;
+    
 
 
-export default App;
+
