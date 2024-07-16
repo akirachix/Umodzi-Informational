@@ -12,8 +12,8 @@ import Footer from "./Footer";
 const App = () => {
   return (
     <div>
-      <About />
       <Products/>
+      <About />
       <Footer/>
     </div>
   )

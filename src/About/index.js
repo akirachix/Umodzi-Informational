@@ -5,7 +5,6 @@ const About = () => {
   return (
     <>
       <h3 className="about">ABOUT US</h3>
-
       <div className="line">
         <hr></hr>
       </div>
