@@ -6,6 +6,7 @@
     color: #302EA8;
     background-color: rgb(206, 206, 206);
     font-weight: bold;
+    margin-top: 2%;
 }
 .footer-logo {
     margin-right: 20px;
@@ -236,6 +237,7 @@
     .privacy{
         padding-left: 16px;
     }
+
 }
 @media  (min-width: 480px) and (max-width:660px){
     .footer-logo img {
@@ -303,4 +305,5 @@
     .privacy{
         padding-left: 16px;
     }
+
 }
