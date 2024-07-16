@@ -11,12 +11,12 @@
   padding-bottom: 6%;
   /* padding-top: 6%; */
 }
-.header {
-  font-size: 27px;
-  margin-bottom: -3%;
+
+.contact h1 {
+  font-size: 43px;
+  margin-bottom: 3px;
   color: #c7cfe5;
   text-align: center;
-  
 }
 .contact h2 {
   color: #c7cfe5;
@@ -69,20 +69,18 @@
     margin-left: -0%;
     border-radius: 0px;
     margin-bottom: -2%;
-
   }
-  .header {
-    font-size: 13px;
-    color:white;
+  .contact h1 {
+    font-size: 25px;
+    color: white;
+    margin-left: -18px;
     filter: opacity(200%);
-
   }
   .contact h2 {
     color: white;
     font-size: 22px;
     margin-left: 120px;
     filter: opacity(200%);
-
   }
   .email {
     width: 10px;
@@ -130,7 +128,6 @@
     margin-left: -0%;
     border-radius: 0px;
     margin-bottom: -2%;
-
   }
   .header {
     font-size: 13px;
@@ -189,7 +186,6 @@
     border-radius: 0px;
     margin-bottom: -3%;
     /* filter: opacity(20%); */
-
   }
   .header {
     font-size: 17px;
@@ -251,7 +247,6 @@
     /* padding-top: 6%; */
     width: 100%;
     border-radius: 26px;
-
   }
   .header {
     font-size: 14px;
@@ -291,7 +286,7 @@
     font-size: 16px;
     margin-bottom: 16px;
     margin-left: -50px;
- 
+
     /* align-items:center; */
   }
   .call {

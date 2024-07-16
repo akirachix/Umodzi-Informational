@@ -10,9 +10,7 @@ import call from "../image/call.png";
 function Contact() {
   return (
     <div className="contact">
-      <div className="header">
         <h1>CONTACT US</h1>
-      </div>
       <h2>Get in Touch</h2>
       <div className="email">
         <img src={email} alt="Email"></img>
