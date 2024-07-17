@@ -1,4 +1,4 @@
- feature/landing
+
 import React from "react";
 
 import About from "./About";
@@ -11,14 +11,16 @@ import Landing from "./LandingPage";
 function App(){
   return(
     <div>
+    
       <Landing/>
+      <About/>
      
       
     </div>
   );
 };
 
- feature/landing
+
 export default App;
 
 
