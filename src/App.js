@@ -2,22 +2,20 @@ import React from "react";
 import Contact from "./Contact";
 import About from "./About";
 import Footer from "./Footer";
+import Navbar from './Navbar';
 
 
-
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <About/>
-    <Contact/>
-    <Footer/>
-      </div>
-      )
-      }
+      <Navbar />
+      <About />
+      <Footer />
+      
+    </div>
+  );
+}
+
+export default App;
 
     
-    export default App;
-    
-
-
-
