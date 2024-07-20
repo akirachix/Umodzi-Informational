@@ -1,12 +1,7 @@
 import React from "react";
-
 import About from "./About";
-
 import Products from "./Product";
-
 import Footer from "./Footer";
-
-
 
 
 const App = () => {
@@ -20,4 +15,9 @@ const App = () => {
 }
 
 export default App;
+
+    
+
+
+
 
