@@ -1,6 +1,6 @@
 .about {
   text-align: center;
-  margin-top: 7%;
+  margin-top: 15%;
   color: #0d2564;
   font-size: 24px;
 }
@@ -51,7 +51,7 @@
 @media (min-width: 280px) and (max-width: 360px) { 
   .about {
     text-align: center;
-    margin-top: 5%;
+    padding-top: 8%;
     color: #0d2564;
     font-size: 20px;
   }
@@ -148,7 +148,7 @@
 @media (min-width: 414px) and (max-width: 520px) {
   .about {
     text-align: center;
-    margin-top: 5%;
+    padding-top: 8%;
     color: #0d2564;
     font-size: 25px;
   }
@@ -238,7 +238,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .about {
     text-align: center;
-    margin-top: 5%;
+    padding-top: 5%;
     color: #0d2564;
     font-size: 25px;
   }
@@ -283,7 +283,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   .about {
     text-align: center;
-    margin-top: 5%;
+    padding-top: 5%;
     color: #0d2564;
     font-size: 25px;
   }
@@ -330,7 +330,7 @@
 @media (min-width: 1200px) and (max-width: 1300px) {
   .about {
     text-align: center;
-    margin-top: 5%;
+    padding-top: 5%;
     color: #0d2564;
     font-size: 24px;
   }
