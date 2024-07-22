@@ -1,20 +1,14 @@
 import React from 'react';
 import './index.css';
-
-
-
 function Footer() {
     return (
         <footer>
-
             <div className="footer-container">
                 <div class="footer-logo">
                     <div className="textlogo">
                         <img id='image' src="images/GanzaPayLogo.png" alt="Logo"></img>
                         <p className="text">GanzaPay</p>
                     </div>
-
-
                     <div className="social-media">
                         <a href="#"><img src="images/Facebooklogo.png" alt="Facebook"></img></a>
                         <a href="#"><img src="images/Youtubelogo.png" alt="YouTube"></img></a>
@@ -23,8 +17,6 @@ function Footer() {
                         <a href="#"><img src="images/XLogo.png" alt="Twitter"></img></a>
                     </div>
                 </div>
-
-
                 <div className="footer-links">
                     <h4>Quick Links</h4>
                     <ul>
@@ -34,8 +26,6 @@ function Footer() {
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-
-
                 <div className="our-partners">
                     <h4>Our Partners</h4>
                     <ul>
@@ -43,8 +33,6 @@ function Footer() {
                         <li><a href="https://www.mtn.co.rw/"> MTN </a></li>
                     </ul>
                 </div>
-
-
                 <div className="privacy">
                     <h4>Privacy</h4>
                     <ul>

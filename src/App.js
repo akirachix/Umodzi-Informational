@@ -1,21 +1,21 @@
 import React from "react";
-import Contact from "./Contact";
 import About from "./About";
+import Products from "./Product";
 import Footer from "./Footer";
-import Navbar from './Navbar';
 
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Navbar />
+      <Products/>
       <About />
-      <Footer />
-      
+      <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;
+
+   
 
     

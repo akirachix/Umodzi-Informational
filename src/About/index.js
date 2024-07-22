@@ -9,6 +9,9 @@ const About = () => {
     <h3 className="about">ABOUT US</h3
   <div>
       <h3 className="about">ABOUT US</h3>
+      <div className="line">
+        <hr></hr>
+      </div>
 
 <div className="line">
   <hr></hr>
