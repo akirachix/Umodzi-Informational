@@ -1,0 +1,377 @@
+.about {
+  text-align: center;
+  margin-top: 15%;
+  color: #0d2564;
+  font-size: 24px;
+}
+
+.line {
+  width: 860px;
+  margin-left: 28%;
+  height: 10px;
+  margin-top: -20px;
+}
+#our {
+  padding-top: -16px;
+}
+.teamtext {
+  background-color: #0d2564;
+  color: rgb(255, 240, 245);
+  padding: 30px 30px;
+  border-radius: 10px;
+  width: 45%;
+  font-size: 20px;
+  /* margin-left: -10%; */
+}
+.us {
+  font-size: 32px;
+  margin-left: -240px;
+}
+.missions {
+  background-color: #0d2564;
+  color: rgb(255, 240, 245);
+  padding: 30px 30px;
+  border-radius: 10px;
+  width: 45%;
+  font-size: 20px;
+  margin-top: 1px;
+}
+.aboutus {
+  text-align: center;
+  font-size: 32px;
+}
+.container {
+  display: flex;
+  gap: 25px;
+  margin-top: 4%;
+  margin-left:  3%;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 280px) and (max-width: 360px) { 
+  .about {
+    text-align: center;
+    padding-top: 8%;
+    color: #0d2564;
+    font-size: 20px;
+  }
+  .line {
+    width: 200px;
+    margin-left: 25%;
+    height: 10px;
+  }
+  .teamtext {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 25px 25px;
+    border-radius: 10px;
+    width: 106%;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: -70px;
+  }
+  .us {
+    font-size: 32px;
+    margin-left: -240px;
+  }
+  .missions {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 25px 25px;
+    border-radius: 10px;
+    width: 105%;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: -70px;
+  }
+  .aboutus {
+    font-size: 20px;
+  }
+  .container {
+    margin-left: 20%;
+    display: grid;
+    gap: 4%;
+    margin-bottom: 50px;
+  }
+}
+
+
+@media (min-width: 375px) and (max-width: 412px) {
+  .about {
+    text-align: center;
+    margin-top: 5%;
+    color: #0d2564;
+    font-size: 20px;
+  }
+  .line {
+    width: 200px;
+    margin-left: 25%;
+    height: 10px;
+  }
+  .teamtext {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 25px 25px;
+    border-radius: 10px;
+    width: 103%;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: -70px;
+  }
+  .us {
+    font-size: 32px;
+    margin-left: -240px;
+  }
+  .missions {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 25px 25px;
+    border-radius: 10px;
+    width: 329px;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: -63px;
+  }
+  .aboutus {
+    font-size: 20px;
+  }
+  .container {
+    margin-left: 20%;
+    display: grid;
+    gap: 4%;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+@media (min-width: 414px) and (max-width: 520px) {
+  .about {
+    text-align: center;
+    padding-top: 8%;
+    color: #0d2564;
+    font-size: 25px;
+  }
+  .line {
+    width: 250px;
+    margin-left: 25%;
+    height: 10px;
+  }
+  .teamtext {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    height: 180px;
+    border-radius: 10px;
+    width: 290px;
+    margin-left: -85px;
+    font-size: 11px;
+  }
+  .us {
+    font-size: 32px;
+    margin-left: -240px;
+  }
+  .missions {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    border-radius: 10px;
+    width: 290px;
+    font-size: 11px;
+    margin-top: 40px;
+    margin-left: -85px;
+  }
+  .aboutus {
+    font-size: 25px;
+  }
+  .container {
+    margin-left: 28%;
+    display: block;
+    gap: 25%;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+  .about {
+    text-align: center;
+    margin-top: 5%;
+    color: #0d2564;
+    font-size: 25px;
+  }
+  .line {
+    width: 400px;
+    margin-left: 25%;
+    height: 10px;
+  }
+  .teamtext {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 195px;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 25px;
+    margin-left: -85px;
+  }
+  .us {
+    font-size: 32px;
+    margin-left: -240px;
+  }
+  .missions {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    border-radius: 10px;
+    width: 850px;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-left: -40px;
+  }
+  .aboutus {
+    font-size: 30px;
+  }
+  .container {
+    margin-left: 18%;
+    display: grid;
+    gap: 6%;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about {
+    text-align: center;
+    padding-top: 5%;
+    color: #0d2564;
+    font-size: 25px;
+  }
+  .line {
+    width: 400px;
+    margin-left: 25%;
+    height: 10px;
+  }
+  .teamtext {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 195px;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 25px;
+    margin-left: -155px;
+  }
+  .us {
+    font-size: 32px;
+    margin-left: -240px;
+  }
+  .missions {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    border-radius: 10px;
+    width: 800px;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-left: -170px;
+  }
+  .aboutus {
+    font-size: 30px;
+  }
+  .container {
+    margin-left: 18%;
+    display: grid;
+    gap: 6%;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about {
+    text-align: center;
+    padding-top: 5%;
+    color: #0d2564;
+    font-size: 25px;
+  }
+  .line {
+    width: 300px;
+    margin-left: 35%;
+    height: 15px;
+  }
+  .teamtext {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 17px 18px;
+    border-radius: 10px;
+    width: 92%;
+    font-size: 16px;
+    margin-left: -80px;
+  }
+  .us {
+    font-size: 32px;
+    margin-left: -240px;
+  }
+  .missions {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 25px 25px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 13px;
+    margin-top: -0px;
+    margin-left: 55px;
+  }
+  .aboutus {
+    font-size: 24px;
+  }
+  .container {
+    margin-left: 13%;
+    margin-right: 8%;
+    display: flex;
+    gap: 5%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .about {
+    text-align: center;
+    padding-top: 5%;
+    color: #0d2564;
+    font-size: 24px;
+  }
+  .line {
+    width: 540px;
+    margin-left: 27%;
+    height: 10px;
+  }
+  #our {
+    padding-top: -16px;
+  }
+  .teamtext {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 35px 35px;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 20px;
+  }
+  .us {
+    font-size: 32px;
+    margin-left: -240px;
+  }
+  .missions {
+    background-color: #0d2564;
+    color: rgb(255, 240, 245);
+    padding: 35px 35px;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 20px;
+    margin-top: 1px;
+  }
+  .aboutus {
+    text-align: center;
+    font-size: 32px;
+  }
+  .container {
+    display: flex;
+    gap: 15px;
+    margin-top: 4%;
+    margin-left: 7%;
+    /* margin-bottom: 50px; */
+  }
+}

@@ -1,27 +1,22 @@
 
 import React from "react";
+import About from "./About";
+import Products from "./Product";
+import Footer from "./Footer";
 
 
-
-// import Landing from "./LandingPage"
-import Landing from "./LandingPage";
-
-// import Navb from "./Navbar";
-
-function App(){
-  return(
+const App = () => {
+  return (
     <div>
-    
-      <Landing/>
-    
-     
-      
+      <Products/>
+      <About />
+      <Footer/>
     </div>
-  );
-};
-
+  )
+}
 
 export default App;
 
+   
 
-
+    
