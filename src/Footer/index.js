@@ -6,15 +6,15 @@ function Footer() {
             <div className="footer-container">
                 <div class="footer-logo">
                     <div className="textlogo">
-                        <img id='image' src="images/GanzaPayLogo.png" alt="Logo"></img>
+                        <img id='image' src="/ImagesFooter/GPLogo.png" alt="Logo"></img>
                         <p className="text">GanzaPay</p>
                     </div>
                     <div className="social-media">
-                        <a href="#"><img src="images/Facebooklogo.png" alt="Facebook"></img></a>
-                        <a href="#"><img src="images/Youtubelogo.png" alt="YouTube"></img></a>
-                        <a href="#"><img src="images/instagram.png" alt="Instagram"></img></a>
-                        <a href="#"><img src="images/Linkedinlogo.png" alt="LinkedIn"></img></a>
-                        <a href="#"><img src="images/XLogo.png" alt="Twitter"></img></a>
+                        <a href="#"><img src="/ImagesFooter/Facebooklogo.png" alt="Facebook"></img></a>
+                        <a href="#"><img src="/ImagesFooter/Youtubelogo.png" alt="YouTube"></img></a>
+                        <a href="#"><img src="/ImagesFooter/instagram.png" alt="Instagram"></img></a>
+                        <a href="#"><img src="/ImagesFooter/Linkedinlogo.png" alt="LinkedIn"></img></a>
+                        <a href="#"><img src="/ImagesFooter/XLogo.png" alt="Twitter"></img></a>
                     </div>
                 </div>
                 <div className="footer-links">

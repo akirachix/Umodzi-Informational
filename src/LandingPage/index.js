@@ -8,8 +8,7 @@ const Landing =()=>{
           
 <div class="text-container">
    
- <h1 className='bringing'>BRINGING ACCESS TO MOBILE MONEY CLOSER</h1>
-<h1> TO FARMERS</h1>
+ <h1 className='bringing'>BRINGING ACCESS TO MOBILE MONEY CLOSER TO FARMERS</h1>
 
 
 

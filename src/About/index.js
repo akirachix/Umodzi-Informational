@@ -5,8 +5,8 @@ const About = () => {
   return (
     
     <>
+
     <div id="about-section">
-    <h3 className="about">ABOUT US</h3
   <div>
       <h3 className="about">ABOUT US</h3>
       <div className="line">
@@ -39,6 +39,7 @@ const About = () => {
       access to mobile money for all
     </p>
   </div>
+</div>
 </div>
     </div>
     </>
