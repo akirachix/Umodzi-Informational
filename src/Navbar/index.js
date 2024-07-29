@@ -42,19 +42,19 @@ const Navbar = () => {
     setHomeSection(document.getElementById('home')?.offsetTop);
     setProductSection(document.getElementById('product')?.offsetTop);
     setAboutSection(document.getElementById('about-section')?.offsetTop);
-    setContactSection(document.getElementById('contactus')?.offsetTop);
+    setContactSection(document.getElementById('contact')?.offsetTop);
 
     const handleScroll = () => {
       const scrollPosition = window.pageYOffset;
 
       if (scrollPosition >= homeSection && scrollPosition < productSection) {
-        setActiveLink('home');
+        setActiveLink('content');
       } else if (scrollPosition >= productSection && scrollPosition < aboutSection) {
         setActiveLink('product');
       } else if (scrollPosition >= aboutSection && scrollPosition < contactSection) {
         setActiveLink('about-section');
       } else if (scrollPosition >= contactSection) {
-        setActiveLink('contactus');
+        setActiveLink('contact');
       }
     };
 
@@ -83,7 +83,7 @@ const Navbar = () => {
               className={activeLink === "home" ? "active" : ''}
               onClick={() => handleLinkClick("home")}
             >
-              <Link activeClass="active" smooth spy to="home">
+              <Link activeClass="active" smooth spy to="content">
                 Home
               </Link>
             </a>
@@ -113,7 +113,7 @@ const Navbar = () => {
               className={activeLink === 'contactus' ? 'active' : ''}
               onClick={() => handleLinkClick('contactus')}
             >
-              <Link activeClass="active" smooth spy to="contactus">
+              <Link activeClass="active" smooth spy to="contact">
                 Contact Us
               </Link>
             </a>
@@ -135,8 +135,8 @@ const Navbar = () => {
               <IoMdClose size={30} />
             </div>
             <li>
-              <a onClick={() => handleLinkClick('home')}>
-                <Link activeClass="active" smooth spy to="home">
+              <a onClick={() => handleLinkClick('content')}>
+                <Link activeClass="active" smooth spy to="content">
                   Home
                 </Link>
               </a>
@@ -156,8 +156,8 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a onClick={() => handleLinkClick('contactus')}>
-                <Link activeClass="active" smooth spy to="contactus">
+              <a onClick={() => handleLinkClick('contact')}>
+                <Link activeClass="active" smooth spy to="contact">
                   Contact Us
                 </Link>
               </a>

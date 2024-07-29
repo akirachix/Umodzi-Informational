@@ -1,0 +1,72 @@
+#button{
+    padding: 15px 25px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+ }
+ #content{
+    background-image: url("../image/man.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    gap: 5%;
+    padding-bottom: 20%;
+    border: none;
+    padding: auto;
+    color: #0D2564;
+    padding-left: 36px;
+    /* font-size: 20px; */
+
+ }
+
+
+  .text-container h1{
+   font-size: 20px;
+   font-size: 40px;
+   width: 30%;
+ }
+
+
+@media screen and (min-width: 375px) and(max-width:667px){
+    #button{
+        padding: 15px 25px;;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 5px;
+        border-radius: 20px;
+        color: white;
+        background-color: blue;
+        border: none;
+        cursor: pointer;
+     }
+    
+    
+     #content{
+        background-image: url("../image/man.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 5%;
+        gap: 5%;
+        padding-bottom: 20%;
+        border: none;
+        padding: auto;
+        color: #0D2564;
+        padding-left: 36px;
+        /* font-size: px; */
+       
+     }
+    .text-container{
+      font-size: 5;
+      margin-bottom: 60px;
+     }
+.bringing{
+   margin-bottom:20px ;
+}
+}

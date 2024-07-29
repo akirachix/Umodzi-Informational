@@ -1,6 +1,6 @@
 .about {
   text-align: center;
-  margin-top: 15%;
+  margin-top: 9%;
   color: #0d2564;
   font-size: 24px;
 }
@@ -65,7 +65,7 @@
     color: rgb(255, 240, 245);
     padding: 25px 25px;
     border-radius: 10px;
-    width: 106%;
+    width: 104%;
     font-size: 12px;
     margin-top: -10px;
     margin-left: -70px;
@@ -79,7 +79,7 @@
     color: rgb(255, 240, 245);
     padding: 25px 25px;
     border-radius: 10px;
-    width: 105%;
+    width: 101%;
     font-size: 12px;
     margin-top: -10px;
     margin-left: -70px;
@@ -113,7 +113,7 @@
     color: rgb(255, 240, 245);
     padding: 25px 25px;
     border-radius: 10px;
-    width: 103%;
+    width: 105%;
     font-size: 12px;
     margin-top: -10px;
     margin-left: -70px;
@@ -127,10 +127,10 @@
     color: rgb(255, 240, 245);
     padding: 25px 25px;
     border-radius: 10px;
-    width: 329px;
+    width: 321px;
     font-size: 12px;
     margin-top: -10px;
-    margin-left: -63px;
+    margin-left: -71px;
   }
   .aboutus {
     font-size: 20px;
@@ -347,7 +347,7 @@
     color: rgb(255, 240, 245);
     padding: 35px 35px;
     border-radius: 10px;
-    width: 40%;
+    width: 39%;
     font-size: 20px;
   }
   .us {
@@ -359,7 +359,7 @@
     color: rgb(255, 240, 245);
     padding: 35px 35px;
     border-radius: 10px;
-    width: 40%;
+    width: 39%;
     font-size: 20px;
     margin-top: 1px;
   }
